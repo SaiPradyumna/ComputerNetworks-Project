@@ -21,5 +21,5 @@ threshold at start-up, and modifying the Fast Retransmit algorithm.
  
          http://dl.acm.org/citation.cfm?id=248180
  
-         J. C. Hoe, “Improving the Start up Behaviour of a Congestion Control Scheme for
-TCP” Proceedings of ACM SIGCOMM.
+         J. C. Hoe, “Improving the Start up Behaviour of a Congestion Control Scheme for TCP” Proceedings of ACM SIGCOMM.
+
