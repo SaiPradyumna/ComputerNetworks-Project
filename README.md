@@ -16,6 +16,9 @@ threshold at start-up, and modifying the Fast Retransmit algorithm.
  ## Abstract
  
  ## Objective
+ --To improve tcp performance
+ As we knew that initial value of 'ssthresh' is critical.One way is to find a better value of ssthresh so that we can avoid large surge of packet that leads to multiple packet losses, ie ,we can avoid this thing .so we need to find an estimate of the threshold at which the sender is closely approaching the full network capacity and thus should slow down and probe remaining capacity.
+ 
  
  ## Reference 
  
