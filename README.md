@@ -28,8 +28,10 @@ threshold at start-up, and modifying the Fast Retransmit algorithm.
  ## Congestion Control Scheme
  
  Slow Start Phase : exponential increment – In this phase after every RTT the congestion window size increments exponentially.
+ 
  Congestion Avoidance Phase : additive increment – This phase starts after the threshold value also denoted as ssthresh. The size of cwnd(congestion window) increases additive. After each RTT cwnd = cwnd + 1.
- Congestion Detection Phase : multiplicative decrement – If congestion occurs, the congestion window size is decreased. The only way a sender can guess that congestion has occurred is the need to retransmit a segment. Retransmission is needed to recover a missing packet which is assumed to have been dropped by a router due to congestion. Retransmission can occur in one of two cases: when the RTO timer times out or when three duplicate ACKs are received.
+
+Congestion Detection Phase : multiplicative decrement – If congestion occurs, the congestion window size is decreased. The only way a sender can guess that congestion has occurred is the need to retransmit a segment. Retransmission is needed to recover a missing packet which is assumed to have been dropped by a router due to congestion. Retransmission can occur in one of two cases: when the RTO timer times out or when three duplicate ACKs are received.
  Case 1 : Retransmission due to Timeout – In this case congestion possibility is high.
     (a) ssthresh is reduced to half of the current window size.
     (b) set cwnd = 1
