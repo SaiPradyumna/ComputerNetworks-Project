@@ -14,7 +14,7 @@ threshold at start-up, and modifying the Fast Retransmit algorithm.
 * Prasanth Sagar(16CO225) kpsagar1999@gmail.com
  
  ## Abstract
- 
+ ### Improving the Start-up Behavior of a Congestion Control Scheme for TCP
  Changes to congestion control scheme in current tcp implementations to improve its behaviour during the startup period of TCP connection.
  The control scheme uses SlowStart,Fast Retransmission and Fast recovery algorithms.
  During Startup period because a TCP sender starts with default parameters it often ends up sending too many packets and too fast,leading to multiple losses of packets from the same window.The recovery from losses during this startup period is often unnecessarily time consuming.
